@@ -10,7 +10,9 @@
 * It should be a String.
 **/
 
-
+var firstName = "Josuha";
+var lastName = "Lee";
+var birthPlace = "Indianapolis";
 
 /**
 * #2
