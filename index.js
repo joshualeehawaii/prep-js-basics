@@ -24,7 +24,9 @@ var birthPlace = "Indianapolis";
 * Their values should be a Number
 **/
 
-
+var favoriteNumber = 12;
+var currentYear = 2017;
+var thatOnePrinceSong = 1999;
 
 /**
 * #3
@@ -36,7 +38,10 @@ var birthPlace = "Indianapolis";
 * Their values should be a Boolean
 **/
 
-
+var isDaytime = true;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = true;
 
 /**
 * #4
