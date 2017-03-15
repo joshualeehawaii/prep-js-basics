@@ -75,7 +75,7 @@ var westCoast = ['California','Oregon', 'Washington'];
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 
 /**
 * #6a Arithmetic
@@ -88,8 +88,10 @@ var westCoast = ['California','Oregon', 'Washington'];
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
-
+var sumOfNumbers = (2 + 2 + 2);
+var productOfNumbers = (2 * 2 * 2);
+//console.log(sumOfNumbers);
+//console.log(productOfNumbers);
 
 /**
 * #6b Comparisons & Logic
@@ -109,7 +111,11 @@ var westCoast = ['California','Oregon', 'Washington'];
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = 'Tacocat' !== 'tacocat';
+//console.log(isEqual);
 
+var thisIsEqual = 'string 1' == 'string 2';
+//console.log(thisIsEqual);
 
 /**
 * #6c Assignments
@@ -127,7 +133,16 @@ var westCoast = ['California','Oregon', 'Washington'];
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer = (2 * 2);
+//console.log(generalContainer);
+var generalContainer = (2 + 2);
+//console.log(generalContainer);
+var generalContainer = (2 - 2);
+//console.log(generalContainer);
+var generalContainer = (2 % 2);
+//console.log(generalContainer);
+var generalContainer = (2/2);
+//console.log(generalContainer);
 
 /**
 * #7a
@@ -141,6 +156,11 @@ var westCoast = ['California','Oregon', 'Washington'];
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
+function jump(height){
+	return 'You jumped ' + height + ' feet high!';
+}
+var jumpResult = jump(9);
+//console.log(jumpResult);
 
 
 /**
