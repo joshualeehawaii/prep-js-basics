@@ -52,7 +52,8 @@ var isHappyCoding = true;
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
 /**
 * #5a
@@ -63,7 +64,7 @@ var isHappyCoding = true;
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ['California','Oregon', 'Washington'];
 
 /**
 * #5b
