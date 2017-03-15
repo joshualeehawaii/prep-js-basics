@@ -162,7 +162,6 @@ function jump(height){
 var jumpResult = jump(9);
 //console.log(jumpResult);
 
-
 /**
 * #7b
 * Declare Functions
@@ -172,4 +171,9 @@ var jumpResult = jump(9);
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+
+function cook(ingredient1,ingredient2, recipeName){
+	return ingredient1 + ' and ' + ingredient2 + ' make a ' + recipeName +'!'; 
+}
+//console.log(cook('Tomatoes', 'Cheese', 'Pizza'));
 
